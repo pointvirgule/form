@@ -1,0 +1,45 @@
+body {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: arial;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.form-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+#contactform {
+  position: relative;
+  width: 25em;
+  max-width: 100%;
+  margin: 3em auto;
+  padding: 1em;
+}
+
+.field {
+  margin: 0.5em 0;
+}
+
+.field > input, textarea {
+  font-size: 1em;
+  padding: 0.25em;
+  width: 100%;
+  border: solid 1px #EEE;
+  font-family: arial;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.75em;
+  margin: 0.25em;
+  display: block;
+}
